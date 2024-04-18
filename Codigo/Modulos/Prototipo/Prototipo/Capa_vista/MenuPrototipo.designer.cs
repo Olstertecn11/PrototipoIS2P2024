@@ -119,7 +119,7 @@ namespace Vista_PrototipoMenu
             this.btnaplicaciones.Padding = new System.Windows.Forms.Padding(64, 0, 0, 0);
             this.btnaplicaciones.Size = new System.Drawing.Size(415, 54);
             this.btnaplicaciones.TabIndex = 3;
-            this.btnaplicaciones.Text = "Mantenimiento";
+            this.btnaplicaciones.Text = "Proveedores";
             this.btnaplicaciones.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnaplicaciones.UseVisualStyleBackColor = true;
             this.btnaplicaciones.Click += new System.EventHandler(this.btnaplicaciones_Click);
