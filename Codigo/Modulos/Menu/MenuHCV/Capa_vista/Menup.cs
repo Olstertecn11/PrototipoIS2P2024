@@ -23,20 +23,11 @@ namespace MenuHCV
         {
             InitializeComponent();
 
-            Button[] apps = { btnseguridad, btncompras, btnVentas, btnInventario, btnBancos, btnNominas, btnHoteleria, btnPrototipo };
+            Button[] apps = { btnseguridad, btnPrototipo };
             cn.deshabilitarApps(apps);
 
             cn.getAccesoApp(1000, apps[0]);  //Modulo Seguridad
-            cn.getAccesoApp(2000, apps[1]);  //Modulo Compras y Cxp
-            cn.getAccesoApp(3000, apps[2]);  //Modulo Ventas y Cxc
-            cn.getAccesoApp(4000, apps[3]);  //Modulo Inventarios
-            cn.getAccesoApp(5000, apps[4]);  //Modulo Bancos
-            cn.getAccesoApp(6000, apps[5]);  //Modulo Nominas
-            cn.getAccesoApp(7000, apps[6]);  //Modulo Hoteleria
-            cn.getAccesoApp(8000, apps[7]);  //Modulo Prototipo
-
-
-
+            cn.getAccesoApp(8000, apps[1]);  //Modulo Compras y Cxp
         }
         //Método que ingresa un valor a la bitacora de acuerdo el módulo
         public void btnlogout_Click(object sender, EventArgs e)
@@ -87,9 +78,6 @@ namespace MenuHCV
 
         private void btnHoteleria_Click(object sender, EventArgs e)
         {
-            cn.setBtitacora("7000", "Ingreso Hoteleria");
-            Vista_PrototipoMenu.MenuHoteleria frm = new Vista_PrototipoMenu.MenuHoteleria();
-            frm.Show();
         }
 
         private void btnCxC_Click(object sender, EventArgs e)
@@ -105,6 +93,8 @@ namespace MenuHCV
         private void btnPrototipo_Click(object sender, EventArgs e)
         {
             cn.setBtitacora("8000", "Ingreso Prototipo");
+            Vista_PrototipoMenu.MenuPrototipo form = new Vista_PrototipoMenu.MenuPrototipo();
+            form.Show();
         }
 
     }

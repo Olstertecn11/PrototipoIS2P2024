@@ -31,7 +31,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Capa_VistaConsultas, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" />
     <Reference Include="Controlador_PrototipoMenu, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\Capa_controlador\bin\Debug\Controlador_PrototipoMenu.dll</HintPath>
@@ -42,14 +41,13 @@
     <Reference Include="FontAwesome.Sharp, Version=6.1.1.0, Culture=neutral, PublicKeyToken=d16d1e4e568ec10f, processorArchitecture=MSIL">
       <HintPath>..\packages\FontAwesome.Sharp.6.1.1\lib\net472\FontAwesome.Sharp.dll</HintPath>
     </Reference>
-    <Reference Include="NavegadorVista">
-      <HintPath>..\..\..\..\..\..\..\ProyectosdeReferencia\Prototipos\proyectois2k23\Codigo\Componentes\Navegador\Vista\bin\Debug\NavegadorVista.dll</HintPath>
+    <Reference Include="Navegador2.0">
+      <HintPath>..\..\..\..\Componentes\Navegador2.0\Navegador2.0\bin\Debug\Navegador2.0.dll</HintPath>
     </Reference>
     <Reference Include="PresentationCore" />
     <Reference Include="PresentationFramework" />
-    <Reference Include="Seguridad_Controlador, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\..\ProyectosdeReferencia\Prototipos\proyectois2k23\Codigo\Componentes\Seguridad\Seguridad\Capa_controlador\bin\Debug\Seguridad_Controlador.dll</HintPath>
+    <Reference Include="Seguridad_Controlador">
+      <HintPath>..\..\..\..\..\..\..\..\..\..\Program Files\UMG\Instalador General HSC\Seguridad_Controlador.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -65,11 +63,11 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="frmAplicaciones.cs">
+    <Compile Include="frmMantProveedor.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmAplicaciones.Designer.cs">
-      <DependentUpon>frmAplicaciones.cs</DependentUpon>
+    <Compile Include="frmMantProveedor.Designer.cs">
+      <DependentUpon>frmMantProveedor.cs</DependentUpon>
     </Compile>
     <Compile Include="MenuPrototipo.cs">
       <SubType>Form</SubType>
@@ -85,8 +83,8 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="frmAplicaciones.resx">
-      <DependentUpon>frmAplicaciones.cs</DependentUpon>
+    <EmbeddedResource Include="frmMantProveedor.resx">
+      <DependentUpon>frmMantProveedor.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MenuPrototipo.resx">
       <DependentUpon>MenuPrototipo.cs</DependentUpon>
@@ -177,6 +175,9 @@
   </ItemGroup>
   <ItemGroup>
     <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="image\Logo.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

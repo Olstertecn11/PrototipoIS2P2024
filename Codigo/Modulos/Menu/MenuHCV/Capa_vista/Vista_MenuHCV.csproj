@@ -51,31 +51,11 @@
     <Reference Include="System.Data" />
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Xml" />
-    <Reference Include="Vista_BancosMenu">
-      <HintPath>..\..\..\..\..\..\..\..\ProyectosFinales\proyectoads22023\Codigo\Modulos\Bancos\Capa_vista\bin\Debug\Vista_BancosMenu.dll</HintPath>
-    </Reference>
-    <Reference Include="Vista_ComprasCxpMenu">
-      <HintPath>..\..\..\..\..\..\..\..\ProyectosFinales\proyectoads22023\Codigo\Modulos\Administracion\ComprasCxp\Capa_vista\bin\Debug\Vista_ComprasCxpMenu.dll</HintPath>
-    </Reference>
-    <Reference Include="Vista_HoteleriaMenu, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Hoteleria\Capa_vista\bin\Debug\Vista_HoteleriaMenu.dll</HintPath>
-    </Reference>
-    <Reference Include="Vista_InventariosMenu, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\..\..\ProyectosFinales\proyectoads22023\Codigo\Modulos\Logistica\Capa_vista\bin\Debug\Vista_InventariosMenu.dll</HintPath>
-    </Reference>
-    <Reference Include="Vista_NominasMenu">
-      <HintPath>..\..\..\..\..\..\..\..\ProyectosFinales\proyectoads22023\Codigo\Modulos\Nominas\Capa_vista\bin\Debug\Vista_NominasMenu.dll</HintPath>
-    </Reference>
     <Reference Include="Vista_PrototipoMenu">
-      <HintPath>..\..\..\..\..\..\..\..\ProyectosFinales\proyectoads22023\Codigo\Modulos\Prototipo\Prototipo\Capa_vista\bin\Debug\Vista_PrototipoMenu.dll</HintPath>
+      <HintPath>..\..\..\Prototipo\Prototipo\Capa_vista\bin\Debug\Vista_PrototipoMenu.dll</HintPath>
     </Reference>
     <Reference Include="Vista_Seguridad">
       <HintPath>..\..\..\..\..\..\..\..\..\..\..\..\Program Files\UMG\Instalador General HSC\Vista_Seguridad.dll</HintPath>
-    </Reference>
-    <Reference Include="Vista_VentasCxcMenu">
-      <HintPath>..\..\..\..\..\..\..\..\ProyectosFinales\proyectoads22023\Codigo\Modulos\Administracion\VentasCxc\Capa_vista\bin\Debug\Vista_VentasCxcMenu.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -183,6 +163,7 @@
   <ItemGroup>
     <Content Include="Resources\Bitmap1.bmp" />
     <Content Include="Resources\Logo Bytech.jpeg" />
+    <None Include="Resources\Logo.png" />
     <Content Include="Resources\LogoSanCarlos1.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
